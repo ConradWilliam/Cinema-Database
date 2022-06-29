@@ -1,0 +1,2 @@
+*Qn.Query to return list of movies and genres
+SELECT movies.title,genres.genre FROM movies RIGHT JOIN genres ON movies.id = genres.id;
