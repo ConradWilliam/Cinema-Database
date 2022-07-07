@@ -1,0 +1,1 @@
+SELECT g.genre FROM people p, stars s, genres g WHERE p.id=s.person_id AND s.show_id AND p.name LIKE "%Robert Downey%"
